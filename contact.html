@@ -2,16 +2,20 @@
 
     <head>
 
-        <meta charset="utf-8">
-        <title>Sarah Schiller</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Sarah Schiller</title>
+            <link rel="https://meyerweb.com/eric/tools/css/reset/reset.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/style2.css">
 
     </head>
 
     <body>
 
         <div class="container-main">
+
+            <section>
 
             <div class="container-heading">
               
@@ -26,9 +30,9 @@
     
                     <ul>
     
-                        <li><a class="nav-menu" href="https://github.com/SarahSchiller" target=" blank">About  |</a></li>
-                        <li><a class="nav-menu" href="https://github.com/SarahSchiller?tab=repositories" target=" blank">Portfolio |</a></li>
-                        <li><a class="nav-menu" href="mailto:sarah.schiller@outlook.com" target=" blank">Contact</a></li>
+                        <li><a class="nav-menu" href="index.html">About  |</a></li>
+                        <li><a class="nav-menu" href="portfolio.html">Portfolio |</a></li>
+                        <li><a class="nav-menu" href="contact.html">Contact</a></li>
     
                     </ul>
     
@@ -47,42 +51,47 @@
 
                 <hr class="line">
 
-                <form action="/my-contact-submission-form-page" method="post">
+                <form class="contact-form">
 
-                    <div>
+                    <ul>
 
-                        <label for="name">Name:</label>
+                        <li>
+
+                            <label for="name">Name:</label>
         
-                        <input type="text" class="name" name="user_name" placeholder="Your name here">
+                            <input type="text" class="name" name="user_name" placeholder="Your name here" required="required">
                        
-                    </div>
+                        </li>
                       
-                    <div>
+                        <li>
         
-                        <label for="mail">E-mail:</label>
+                            <label for="mail">E-mail:</label>
         
-                        <input type="email" class="mail" name="user_mail" placeholder="example@gmail.com">
+                            <input type="email" class="mail" name="user_mail" placeholder="example@gmail.com" required="required">
         
-                    </div>
+                        </li>
                       
-                    <div>
+                        <li>
                         
-                        <label for="msg">Message:</label>
+                            <label for="msg">Message:</label>
                         
-                        <textarea class="msg" name="user_message"></textarea>
+                            <textarea id="message" name="message" required="required"></textarea>
                       
-                    </div>
+                        </li>
                     
-                    <a href="#" class="submit-button">Submit</a>
-                    
+                        <input type="submit">
+
+                    </ul>
+
                 </form>
-                
+               
+            </section>
 
             </div>
                         
         </div>
         
-        <footer>Copyright &copy;</footer>
+        <footer>Copyright &copy;2018</footer>
 
     </body>
 
