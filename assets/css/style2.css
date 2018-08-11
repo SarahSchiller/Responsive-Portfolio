@@ -1,3 +1,31 @@
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+    .container-main {
+        width: 75%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        padding-right: 0px;
+        align-content: center;
+    }
+    footer {
+        width: 100%;
+    }
+    header {
+        padding-right: 10px;
+    }
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+      }
+      #main-container {
+        width: 75%;
+        margin-bottom: 50px;
+        float: center;
+      }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -216,24 +244,43 @@ p:last-child {
     background: #4aaaa5;
     border-bottom: 0;
   }
-/* Width at 768px and below */
-@media screen and (max-width: 768px) {
-    .container-main {
-        width: 75%;
-        margin-bottom: 50px;
-    }
-    footer {
-        width: 100%;
-    }
-    header {
-        padding-right: 10px;
-    }
-    .wrapper {
-        /* Box-model */
-        width: 100%;
-        padding: 20px;
-      }
-}
 
+  #contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
 
 

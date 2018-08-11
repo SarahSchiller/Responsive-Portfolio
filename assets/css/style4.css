@@ -1,0 +1,24 @@
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+    .container-main {
+        width: 75%;
+        margin-bottom: 50px;
+        float: left;
+    }
+    footer {
+        width: 100%;
+    }
+    header {
+        padding-right: 10px;
+    }
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+      }
+      #main-container {
+        width: 75%;
+        margin-bottom: 50px;
+        float: left;
+      }
+}
